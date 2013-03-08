@@ -1,0 +1,29 @@
+#MLProperties: name (type:default) min:max -- information
+#MLProp : enableEffectName (boolean:true) -- Set to true to show effect names, false to disable
+#MLProp : showInChat (boolean:true) -- Set to true to show info when chat is open, false to disable info when chat is open
+#
+#**ONLY EDIT WHAT IS BELOW THIS**
+#MLProp : enableBackground (boolean:false) -- Set to true to see the effect background box, false to disable
+#MLProp : applyXOffsetToCenter (boolean:false) -- Set to true if you want the xOffset value to be applied when using a center alignment
+#MLProp : effectNameColor (java.lang.String:f) -- Valid color values are 0-9, a-f (color values can be found here: http://www.minecraftwiki.net/wiki/File:Colors.png)
+#MLProp : xOffset (int:2) -- Horizontal offset from the edge of the screen (when using right alignments the x offset is relative to the right edge of the screen)
+#MLProp : yOffset (int:2) -- Vertical offset from the edge of the screen (when using bottom alignments the y offset is relative to the bottom edge of the screen)
+#MLProp : applyYOffsetToMiddle (boolean:false) -- Set to true if you want the yOffset value to be applied when using a middle alignment
+#MLProp : yOffsetBottomCenter (int:41) -- Vertical offset used only for the bottomcenter alignment to avoid the vanilla HUD
+#MLProp : durationColor (java.lang.String:f) -- Valid color values are 0-9, a-f (color values can be found here: http://www.minecraftwiki.net/wiki/File:Colors.png)
+#MLProp : alignMode (java.lang.String:topleft) -- Valid alignment strings are topleft, topcenter, topright, middleleft, middlecenter, middleright, bottomleft, bottomcenter (not recommended), bottomright
+#MLProp : allowUpdateCheck (boolean:true) -- Set to true to allow checking for mod updates, false to disable
+#
+#Thu Feb 14 16:30:40 CET 2013
+showInChat=true
+enableEffectName=true
+yOffset=2
+applyXOffsetToCenter=false
+alignMode=topleft
+durationColor=f
+applyYOffsetToMiddle=false
+effectNameColor=f
+xOffset=2
+yOffsetBottomCenter=41
+enableBackground=false
+allowUpdateCheck=true
